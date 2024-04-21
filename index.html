@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/sytle.css">
+</head>
+<body>
+    
+    <div id="calculator">
+        <input type="text" id="display" readonly>
+        <div id="keys">
+            <button onclick="pushToDisplay('+')" class="sp_color">+</button>
+            <button onclick="pushToDisplay('7')">7</button>
+            <button onclick="pushToDisplay('8')">8</button>
+            <button onclick="pushToDisplay('9')">9</button>
+            <button onclick="pushToDisplay('-')" class="sp_color">-</button>
+            <button onclick="pushToDisplay('4')">4</button>
+            <button onclick="pushToDisplay('5')">5</button>
+            <button onclick="pushToDisplay('6')">6</button>
+            <button onclick="pushToDisplay('*')" class="sp_color">*</button>
+            <button onclick="pushToDisplay('1')">1</button>
+            <button onclick="pushToDisplay('2')">2</button>
+            <button onclick="pushToDisplay('3')">3</button>
+            <button onclick="pushToDisplay('/')" class="sp_color">/</button>
+            <button onclick="pushToDisplay('0')">0</button>
+            <button onclick="pushToDisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="reset()" class="sp_color">C</button>
+        </div>
+    
+    
+    </div>
+
+
+<script src="/script.js"></script>
+</body>
+
+</html>
